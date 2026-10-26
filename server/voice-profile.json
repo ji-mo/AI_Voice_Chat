@@ -1,0 +1,19 @@
+{
+  "id": "mira-maia-v2",
+  "provider": "bailian",
+  "model": "qwen3-tts-flash",
+  "voice": "Maia",
+  "language": "Chinese",
+  "description": "A clear, gentle adult female Maia preset, with fluid conversational phrasing for the cinematic Mira character.",
+  "instructions": "Speak as a 26-year-old woman with a clear, light, resonant voice. Use fluid, gently varied intonation and a subtle smile. Let commas make short natural breath pauses and full stops finish a thought. Keep a conversational pace with emphasis shaped by meaning. Avoid breathy whispering, heavy nasal resonance, exaggerated sweetness, a childlike voice, mechanical equal-length pauses, or an announcer tone. Read only the provided text.",
+  "instructionsPolicy": "Used only with an explicitly configured instruct model; ordinary Flash uses the fixed Maia preset and punctuation in the spoken text without instruction control.",
+  "emotionInstructions": {
+    "neutral": "Sound relaxed, grounded and attentive, with natural conversational phrasing.",
+    "curious": "Sound gently curious with a little playful warmth, without becoming high-pitched or exaggerated.",
+    "warm": "Sound quietly happy and reassuring, with a subtle smile in the voice."
+  },
+  "referenceText": "雨还没有停。进来，坐一会儿吧。我是米拉，旅行摄影师。",
+  "referenceAudio": "server/fixtures/mira-reference.wav",
+  "consistency": "Mock uses bundled audio files. Live uses this server-side model and voice preset unless explicitly overridden by environment variables. No device speech-synthesis voice is used. The reference audio is for comparison, not voice cloning.",
+  "phrasingInstructions": "Write for natural spoken Chinese: use short and medium clauses, place commas at meaningful breath groups and full stops when a thought finishes. Let questions sound curious and statements relaxed. Avoid run-on sentences, repeated ellipses, punctuation after every few characters, stage directions, or written instructions about tone. Preserve the reply schema and length limits."
+}

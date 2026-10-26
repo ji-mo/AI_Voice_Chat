@@ -1,0 +1,221 @@
+{
+  "greeting": {
+    "segments": [
+      {
+        "text": "雨还没有停。进来，坐一会儿吧。",
+        "emotion": "warm",
+        "action": "none",
+        "events": []
+      },
+      {
+        "text": "我是米拉，旅行摄影师。这里的最后一杯咖啡，应该还来得及。",
+        "emotion": "neutral",
+        "action": "none",
+        "events": [
+          {
+            "kind": "story",
+            "trigger": "segment_end",
+            "node": "conversation"
+          }
+        ]
+      }
+    ]
+  },
+  "waiting": {
+    "segments": [
+      {
+        "text": "我在等一位很久没见的旅伴。我们约好，等雨停了就在这里碰面。",
+        "emotion": "curious",
+        "action": "none",
+        "events": []
+      },
+      {
+        "text": "其实，我也不知道他会不会来。不过，等待的时候有人聊天，也挺好的。",
+        "emotion": "warm",
+        "action": "none",
+        "events": []
+      }
+    ]
+  },
+  "photo": {
+    "segments": [
+      {
+        "text": "想看我的照片吗？这张我一直带在身边。",
+        "emotion": "warm",
+        "action": "show_photo",
+        "events": [
+          {
+            "kind": "photo",
+            "trigger": "segment_start",
+            "operation": "reveal",
+            "assetId": "lighthouse_photo"
+          }
+        ]
+      },
+      {
+        "text": "是北边海岸的一座灯塔。那天我们迷路了，却看到了最美的日落。",
+        "emotion": "warm",
+        "action": "none",
+        "events": [
+          {
+            "kind": "story",
+            "trigger": "segment_end",
+            "node": "photo_revealed"
+          }
+        ]
+      }
+    ]
+  },
+  "photo_again": {
+    "segments": [
+      {
+        "text": "你看灯塔旁边那一点光，那是我们借宿的小屋。",
+        "emotion": "warm",
+        "action": "none",
+        "events": []
+      },
+      {
+        "text": "有些地方，照片只记住了风景。再看的时候，我想起的却是一起去的人。",
+        "emotion": "neutral",
+        "action": "none",
+        "events": []
+      }
+    ]
+  },
+  "window": {
+    "segments": [
+      {
+        "text": "你听，雨声好像小了一点。街灯映在水里，像另一座城市。",
+        "emotion": "curious",
+        "action": "look_window",
+        "events": [
+          {
+            "kind": "camera",
+            "trigger": "segment_start",
+            "target": "window"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢这样的夜晚。每个人都慢下来，连告别也可以再晚一点。",
+        "emotion": "warm",
+        "action": "none",
+        "events": []
+      }
+    ]
+  },
+  "farewell": {
+    "segments": [
+      {
+        "text": "要走了吗？把围巾系好，外面还有一点凉。",
+        "emotion": "warm",
+        "action": "none",
+        "events": [
+          {
+            "kind": "photo",
+            "trigger": "segment_start",
+            "operation": "hide",
+            "assetId": "lighthouse_photo"
+          },
+          {
+            "kind": "camera",
+            "trigger": "segment_start",
+            "target": "table"
+          }
+        ]
+      },
+      {
+        "text": "谢谢你陪我等这场雨。希望下次相遇，我们都有新的故事。",
+        "emotion": "warm",
+        "action": "none",
+        "events": [
+          {
+            "kind": "story",
+            "trigger": "segment_end",
+            "node": "farewell"
+          }
+        ]
+      }
+    ]
+  },
+  "coffee": {
+    "segments": [
+      {
+        "text": "我点的是一杯热拿铁。忙着看窗外，都快忘记喝了。",
+        "emotion": "warm",
+        "action": "none",
+        "events": []
+      },
+      {
+        "text": "你喜欢咖啡吗？我总觉得，陌生城市的第一杯咖啡，会决定旅行的心情。",
+        "emotion": "curious",
+        "action": "none",
+        "events": []
+      }
+    ]
+  },
+  "identity": {
+    "segments": [
+      {
+        "text": "我今年二十六岁。这个星星发夹，是第一次独自旅行时买的。",
+        "emotion": "warm",
+        "action": "none",
+        "events": []
+      },
+      {
+        "text": "雨衣陪我去过很多地方。颜色亮一点，下雨天也不容易在人群里走散。",
+        "emotion": "neutral",
+        "action": "none",
+        "events": []
+      }
+    ]
+  },
+  "travel": {
+    "segments": [
+      {
+        "text": "我最喜欢沿着海岸慢慢走。相机里有很多风景，也有一些拍糊了的瞬间。",
+        "emotion": "warm",
+        "action": "none",
+        "events": []
+      },
+      {
+        "text": "包里那张灯塔照片，就是一次迷路的收获。你想看看吗？",
+        "emotion": "curious",
+        "action": "none",
+        "events": []
+      }
+    ]
+  },
+  "comfort": {
+    "segments": [
+      {
+        "text": "谢谢你。这句话比咖啡还暖和。",
+        "emotion": "warm",
+        "action": "none",
+        "events": []
+      },
+      {
+        "text": "就算他今天没有来，这个晚上也已经有了值得记住的事。",
+        "emotion": "warm",
+        "action": "none",
+        "events": []
+      }
+    ]
+  },
+  "followup": {
+    "segments": [
+      {
+        "text": "我在听。雨夜里的故事，总让人想再多听一点。",
+        "emotion": "curious",
+        "action": "none",
+        "events": []
+      },
+      {
+        "text": "你呢？有没有一个地方，明明离开很久，却还想回去看看？",
+        "emotion": "warm",
+        "action": "none",
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "author": "Original adult character and cinematic assets generated with the built-in OpenAI image generation tool, integrated with Codex",
+  "assets": [
+    {
+      "id": "mira-cinema",
+      "path": "/assets/mira-cinema.webp",
+      "width": 1672,
+      "height": 941,
+      "source": "AI-generated original fictional adult character, age 26; built-in image_gen; compressed to WebP for delivery",
+      "role": "Base scene and neutral expression"
+    },
+    {
+      "id": "mira-warm",
+      "path": "/assets/mira-warm.webp",
+      "width": 1672,
+      "height": 941,
+      "source": "AI-generated original fictional adult character, age 26; built-in image_gen; compressed to WebP for delivery",
+      "role": "Aligned character expression frame"
+    },
+    {
+      "id": "mira-curious",
+      "path": "/assets/mira-curious.webp",
+      "width": 1672,
+      "height": 941,
+      "source": "AI-generated original fictional adult character, age 26; built-in image_gen; compressed to WebP for delivery",
+      "role": "Aligned character expression frame"
+    },
+    {
+      "id": "mira-window",
+      "path": "/assets/mira-window.webp",
+      "width": 1672,
+      "height": 941,
+      "source": "AI-generated original fictional adult character, age 26; built-in image_gen; compressed to WebP for delivery",
+      "role": "Aligned character expression frame"
+    },
+    {
+      "id": "mira-blink",
+      "path": "/assets/mira-blink.webp",
+      "width": 1672,
+      "height": 941,
+      "source": "AI-generated original fictional adult character, age 26; built-in image_gen; compressed to WebP for delivery",
+      "role": "Aligned character expression frame"
+    },
+    {
+      "id": "lighthouse_photo",
+      "path": "/assets/lighthouse-cinema.webp",
+      "width": 1448,
+      "height": 1086,
+      "source": "AI-generated fictional coastal travel photograph; built-in image_gen",
+      "role": "Dialogue-triggered keepsake photograph"
+    }
+  ],
+  "audio": {
+    "source": "Alibaba Cloud Model Studio Qwen-TTS",
+    "sourceUrl": "https://help.aliyun.com/zh/model-studio/qwen-tts-api",
+    "format": "WAV from Qwen-TTS",
+    "directory": "server/fixtures/audio",
+    "characterVoice": {
+      "profile": "mira-maia-v2",
+      "profilePath": "server/voice-profile.json",
+      "model": "qwen3-tts-flash",
+      "voice": "Maia",
+      "language": "Chinese",
+      "matchesProjectProfile": true,
+      "instructionsApplied": false,
+      "instructions": null,
+      "referenceText": "雨还没有停。进来，坐一会儿吧。我是米拉，旅行摄影师。",
+      "referenceAudio": "server/fixtures/mira-reference.wav",
+      "referenceSha256": "8e3018f956752c111013805525a0b61c796a1adf90e121b7dd4f0d848ddee8cc",
+      "generator": "scripts/generate-mock-audio.mjs"
+    },
+    "files": {
+      "d6488ddc39429388.wav": "76772e19212f6800aee822233963bec65831caf49194f2356158f3ebd2c9fb9a",
+      "6dd9f0cdc28fcdd0.wav": "c1ca5ffd0e2581918f86480bf30b0e058589d8410ef6300e850f13da68b7ef30",
+      "a375c6d83cb80494.wav": "81944f528046120e10cf98af0dd0d12585f969e574074c91ed44e6017bd57c85",
+      "d2f50be728936680.wav": "59b889db608579adc61d9789ab98372fc19eb23f4df0bdab43645156d2470a81",
+      "85e535e7f3287b4f.wav": "394bca563ce19e3c1f147746f3af83dab064a685d559a77e4a6deebce80f21da",
+      "db296ab8b57fc0e3.wav": "bfc351358dfa24ddde6c9577a4d10de6095d925cbc16d9bdd6c9ff8faae05cca",
+      "3ccbfd435ce31a7e.wav": "1723f872c69282f599cf5d63daa0bf0358b6fc077147bfe7cb19856720891411",
+      "5eacfb8c539e5653.wav": "b5c6ca5fb330d24145f3f01bf15fdc3eba5840621529c28f9fd9300c07b625eb",
+      "9a706ade847d07c4.wav": "c8f893585997c29cc605d9e6a14ee7947f90413e51c96cd00c389a2d81dbfea1",
+      "dd9d56ea29607fa7.wav": "179f53ab20cafea591957f64e3dd425c445f4fe7cd1c5a19ea6c4569c8fc8182",
+      "b6abd4b6119f307a.wav": "8b4c6d317323d6671af2ef8e7b67036bcd2a4ce252fbb6b520d401466b28c980",
+      "9f5a805c66817cd6.wav": "1d0bc65067d6469445a8675cbb1cfbea96cb8bcacd89d8784673b7a65ed852f3",
+      "c9f215f0bcff1cd7.wav": "005897a23b95e3e0f2a2c35969e5e6c43347464a873a096d152188081af0d117",
+      "ac60035676c1ae6a.wav": "ab82b3006d8b94b53b4b582f3d236e1d55117bd9ab078689b78a9d230fa297c8",
+      "16a2f01c059f7b26.wav": "4997d6c04ab079619c21f031ffb98ff6c7d8dd8e3741445ecc97a6fd99d77534",
+      "3ee2da5c3bf112d1.wav": "e9e5cf1dc4ee375f67715b23aeef05f1bf8c8366aebaa025f5f36d9d4c83806d",
+      "d8f02410f5d8895e.wav": "6a12fe7c144873a4556bed85a1331e309265d30ded5fcdd31db8c55e641445e7",
+      "3b8ce5df54a277e2.wav": "37cce1f9b2c20bd05bbfe62c92568cee9a5b11ef3c94ef80f22a665973ac5a83",
+      "d5be34e5ec1cd455.wav": "c6f1dc3e8df41170f145036d28772f6d8d9a42fd84085f4a2ea122702ea0bccd",
+      "85d2ca83a6aee666.wav": "44e9d83a161c261c48d1995b32c0ceea66b2cdb5cc2ca971d627ef9bb99abba3",
+      "df7e0e15efbb6968.wav": "4b7f6536322882412672722103def52976d4a67687b4b6ac20632452cbf0fc54",
+      "3957f3d40311be2e.wav": "f3ead5e11476b65526a42da434fff1bd3a3d150725cd4b0b467174f3bf9968be"
+    },
+    "exampleInput": {
+      "source": "macOS Tingting",
+      "format": "PCM WAV, 22050 Hz",
+      "path": "server/fixtures/example-input.wav"
+    },
+    "note": "Pre-generated through the same provider as Live. Runtime Mock playback is local. Existing demonstration videos and previews retain their original voices."
+  },
+  "visualGeneration": {
+    "tool": "Built-in image_gen (no project API key used)",
+    "scenePrompt": "Create the final production scene image derived from the LEFT desktop cinematic cafe scene in the reference, not a UI mockup. ONE single seamless wide 3:2 or 16:9 photograph, high resolution 2048 pixels wide or higher. REMOVE ALL text, logos, UI, borders, desktop/mobile labels, input fields, subtitles; no inset mobile screen. Make Mira more strikingly beautiful, with gracefully balanced features, expressive almond-shaped deep brown eyes and soft catchlights, refined straight nose, naturally defined lips, flattering luminous healthy skin with real fine texture, softly arched brows. Still a believable original adult 26-year-old woman, not a celebrity, not a doll, natural makeup. Neat voluminous dark brown layered shoulder-length hair, gently swept fringe framing her face, silver star hairpin clearly visible. A subtle warm closed-mouth smile, intimate attentive eye contact, her head mostly upright (not leaning on hand), both natural hands relaxed around a ceramic coffee cup. Amber raincoat and cream blouse unchanged in concept. Compose character center at x=68%, head center at x=68%, y=29%; top of head at y=9%, face lower edge at y=43%; body down to x=45%..94%, y=90%. Seated across walnut cafe table. Left 43% of image is a BIG dark blue rain window, perfectly straight vertical window panes, with soft city bokeh behind it, FEWER tiny static droplets because we will animate drops in code, enough clean glass area for animation, lower window sill at y=70%. Indoor warm amber lamps behind the woman on right, beautifully balanced soft portrait lighting on face, clear facial details, good dynamic range. Table visible at bottom 23%, modest coffee and a vintage unbranded camera, no conspicuous logos, no other people. Strong depth of field, photo realism, believable clothing/fingers/anatomy. Cozy contemporary cafe editorial portrait, emotionally warm, sophisticated photographic composition. The window occupies LEFT side only; never overlay water on woman's skin. This asset will fill an immersive app and be cropped responsively; keep her face between x=58-77%, y=18-44%. No UI or writing anywhere.",
+    "expressionPrompts": {
+      "warm": "Edit this production photograph to make the warm character animation frame. Change ONLY her facial expression to a beautiful, clearly warm, softly delighted smile showing just a little upper teeth, cheeks lifting and eyes softly crinkling. She looks directly at viewer. All head orientation, crop, clothing, hair, hands, cup and background remain identical. This is NOT a new scene, do not recompose or zoom. Same wide 16:9 image and same person, maintain exact relative landmark positions. Photorealistic texture. No UI or text.",
+      "curious": "Edit this production photograph to make the curious character animation frame. Change ONLY her face to a clearly curious attentive expression: subtly raised brows, alert open eyes looking directly at viewer, lips gently parted as though about to ask a quiet question. Keep lovely natural adult features. All head orientation, crop, clothing, hair, hands, cup and background remain identical. This is NOT a new scene, do not recompose or zoom. Same wide 16:9 image and same person, maintain exact relative landmark positions. Photorealistic texture. No UI or text.",
+      "window": "Edit this production photograph to make the window character animation frame. Change ONLY the woman's head and eyes: she turns her head to her RIGHT, toward the rain window on the LEFT of the image, gazing through the window in a graceful 3/4 profile, with a calm reflective face. Keep identical identity, exact head center, hairpin, outfit, body, hands, cup, camera, window, background, image dimensions and camera framing. This is NOT a new scene, do not recompose or zoom. Same wide 16:9 image and same person, maintain exact relative landmark positions. Photorealistic texture. No UI or text.",
+      "blink": "Edit this production photograph to make the blink character animation frame. Change ONLY the eyelids so both her eyes are naturally fully CLOSED during a gentle blink. Do not change smile, lips, nose, eyebrows, head position, identity, hair, clothing, cup, hands, background, crop, resolution or lighting. This is one frame of a blink animation, so all pixels outside the eye area should remain as close as possible to original. This is NOT a new scene, do not recompose or zoom. Same wide 16:9 image and same person, maintain exact relative landmark positions. Photorealistic texture. No UI or text."
+    },
+    "photoPrompt": "A single photorealistic travel photograph, landscape 4:3. Quiet northern coast with a small white lighthouse topped in dark slate red and a tiny weathered keeper cottage, winding dirt path through windswept dune grass leading towards it, ocean to left, late summer golden hour, soft sea haze and subtle film grain. Intimate nostalgic photography shot by a young adult travel photographer. Beautiful natural muted amber, sage, dusty blue tones. Not a painting, no people, no text, no logos, no border, no Polaroid frame, no UI. This will be the actual photograph inside a small keepsake print in a cinematic narrative app.",
+    "runtimeEffects": "Canvas rain condensation, droplet collection, gravity, fading trails and refraction; CSS character breathing, blinking, expression crossfades and camera movement. Not generated video or phoneme-level lip synchronization."
+  },
+  "ambience": {
+    "source": "Original procedural electric-piano composition; door chime adapted from the user-selected CC0 Japanese Furin recording by ayustat2001",
+    "generator": "scripts/generate-ambience.mjs",
+    "regeneration": "Node.js and FFmpeg; CC0 source excerpt is bundled under server/fixtures/ambience; runtime uses the encoded MP3 assets",
+    "music": {
+      "path": "/assets/audio/cafe-music.mp3",
+      "mimeType": "audio/mpeg",
+      "durationSeconds": 53.3333,
+      "sha256": "7cf6c5af6ad6ce3765ff2d0a43396bd522c3478bf3083495804ede5530ac2054",
+      "tempoBpm": 72,
+      "loop": true
+    },
+    "doorBell": {
+      "path": "/assets/audio/furin-three-strikes.mp3",
+      "mimeType": "audio/mpeg",
+      "durationSeconds": 2.1,
+      "sha256": "020de1762b05685fef104fe99a96bada3698106307908507689fae9725481d4f",
+      "position": "Stereo field recording",
+      "style": "Three light Japanese Furin strikes, softer irregular rebounds and a short natural tail; original pitch retained",
+      "title": "Furin japanese wind chime.wav",
+      "author": "ayustat2001",
+      "sourceUrl": "https://freesound.org/people/ayustat2001/sounds/501168/",
+      "downloadUrl": "https://cdn.freesound.org/previews/501/501168_4648939-hq.mp3",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceFormat": "Public HQ MP3 preview of the original recording",
+      "sourceExcerptFile": "server/fixtures/ambience/furin-501168-source.wav",
+      "sourceExcerptStartSeconds": 0,
+      "sourceExcerptSha256": "2924c0c1208a5f403269e04b44adb2c2b5826386a7902d21f33f4d3bead272ad",
+      "modifications": "Retained the 4.272-second source; isolated its 0.35-1.65 second strike, arranged at 0.03/0.43/0.93 seconds with gains 1/0.67/0.44; 150 Hz-10 kHz filtering, 2.1-second sample-domain trim, 450 ms ending fade, peak normalization and MP3 encoding",
+      "measuredLoudnessLUFS": -14.3
+    },
+    "mix": {
+      "defaultVolume": 0.45,
+      "musicGain": 0.35,
+      "bellGain": 0.42,
+      "speechMusicMultiplier": 0.18,
+      "thinkingMusicMultiplier": 0.4,
+      "microphone": "Immediate silence while pending, recording, or listening",
+      "bellScheduling": "Only idle; 40-75 seconds after the entry chime; without an entry chime the first ambient bell is 16-26 seconds after becoming idle",
+      "visibility": "Stop sources and suspend context while the page is hidden",
+      "preferences": "Local device mute and volume preferences; no effect on character voice",
+      "entryBell": "Once after clicking the cafe-entry button, when audio and session are ready; respects mute and is discarded if conversation, recording or page hiding happens first",
+      "chimeAboveMusicDb": 3.12
+    }
+  }
+}
